@@ -9,9 +9,9 @@ fun main() {
    var num2=read.nextInt()
     var results = when(operator){
         "+" -> num1+num2
-        "-" -> num1+num2
-        "*" -> num1+num2
-        "/" -> num1+num2
+        "-" -> num1-num2
+        "*" -> num1*num2
+        "/" -> num1/num2
         else ->"invalid operator"
     }
     println("Answer = $results")
